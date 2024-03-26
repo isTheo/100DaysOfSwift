@@ -19,8 +19,6 @@ class DetailViewController: UIViewController {
         
         title = "Image \(positionInArray) of \(numberOfPictures)"
         navigationItem.largeTitleDisplayMode = .never
-        
-        // Challenge 2 of project 3
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareButtonPressed))
 
         
@@ -40,7 +38,7 @@ class DetailViewController: UIViewController {
         navigationController?.hidesBarsOnTap = false
     }
     
-    // Challenge 2 of project 3
+
     @objc private func shareButtonPressed() {
             guard let image = imageView.image?.jpegData(compressionQuality: 0.8) else {
                 print("No image found")
@@ -51,6 +49,7 @@ class DetailViewController: UIViewController {
             present(activityVC, animated: true)
         }
 
+    
     /*
     // MARK: - Navigation
 
