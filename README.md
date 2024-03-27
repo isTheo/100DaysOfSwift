@@ -1,6 +1,7 @@
 
-## Project1 - Image Viewer
+## Image Viewer
 
+Project 1 from Hacking With Swift.  
 
 Learned the basics of iOS app development and got familiar with several fundamental concepts:
 
