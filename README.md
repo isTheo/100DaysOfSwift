@@ -1,7 +1,6 @@
 
 ## Project1 - Image Viewer
 
-A simple image viewer with a detail page.
 
 Learned the basics of iOS app development and got familiar with several fundamental concepts:
 
