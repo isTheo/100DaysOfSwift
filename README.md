@@ -1,5 +1,5 @@
 
-## Projec1 - Image Viewer
+## Project1 - Image Viewer
 
 A simple image viewer with a detail page.
 
