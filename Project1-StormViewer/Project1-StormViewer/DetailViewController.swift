@@ -25,6 +25,9 @@ class DetailViewController: UIViewController {
         if let imageToLoad = selectedImage {
             imageView.image = UIImage(named: imageToLoad)
         }
+        
+        
+        assert(selectedImage != nil, "umwrap of selectedImage gone well, it has a value")
     }
     
     
@@ -49,16 +52,6 @@ class DetailViewController: UIViewController {
             present(activityVC, animated: true)
         }
 
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
 
